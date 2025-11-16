@@ -5,3 +5,4 @@ marks = {
     }
 print(marks["harry"])
 print(type(marks))
+print(len(marks))

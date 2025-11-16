@@ -1,9 +1,11 @@
 class Employee:
     company ="ITC"
+    name = "Shivam"
+    salary = "Rs 1122"
     def show(self):
         print(f"The name is {self.name} and salary is {self.salary}")
 
-class Programmer:
+class Programmer(Employee):
     company ="ITC Infotech"
     def show(self):
         print(f"The name is {self.name} and salary is {self.salary}")
@@ -13,5 +15,6 @@ class Programmer:
 
 a = Employee()
 b = Programmer()
+b.show()
 print(a.company)
 print(b.company)
