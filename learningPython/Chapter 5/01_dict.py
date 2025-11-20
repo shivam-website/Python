@@ -3,6 +3,8 @@ marks = {
     "Shivam" : 99,
     "prince" : 22
     }
-print(marks["harry"])
+
+marks["Shivam"] = {"type":"Cool boy"}
+print(marks["Shivam"])
 print(type(marks))
 print(len(marks))
